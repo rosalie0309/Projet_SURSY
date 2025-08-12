@@ -48,7 +48,7 @@ Ces approches sont détaillées dans :
   - Jeu équilibré via UMAP + K-Means
   - Jeu équilibré via sélection par maladie
 
-  ### 4. Phase 2: Classification binaire VS / NVS
+### 4. Phase 2: Classification binaire VS / NVS
 
   ### 4.1 Objectif
 Classer les articles selon leur pertinence pour la veille syndromique (*type_article*) :
