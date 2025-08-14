@@ -33,7 +33,7 @@ Pour remédier au déséquilibre initial — avec SA et SP sur-représentées pa
 ### 3.3 Approche de classification appliquéé qui a mieux fonctionné
 Plusieurs méthodes ont été testées. La meilleure performance a été obtenue avec :
 - Vectorisation : SBERT (all-MiniLM-L6-v2)
-- Classifieur : Perceptron multicouches (MLP)
+- Classifieur : Perceptron multicouches (MLP) 
   
 Ces approches sont détaillées dans :
 - *classification_avec_data_umap&kmeans.ipynb* (approche 1)
@@ -56,4 +56,4 @@ Classer les articles selon leur pertinence pour la veille syndromique (*type_art
 - **NVS** : Non Veille Syndromique
 
   ### 4.2 Les données
-  Contrairement à la phase 1, le déséquilibre entre classes est problématique ici. En effet, la classe VS est sous-représentée.
+  Contrairement à la phase 1, le déséquilibre entre classes est problématique ici. En effet, la classe VS est sous-représentée dans la vie réelle. Le principal défis est donc de trouver un modèle qui arrive tout de même à gérer ce déséquilibre et voir par la suite comment améliorer la veille syndromique en SV en augmentant ces données (ce qui fait l'objet de la phase 3 du projet) 
