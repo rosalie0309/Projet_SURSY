@@ -66,3 +66,6 @@ Classer les articles selon leur pertinence pour la veille syndromique (*type_art
 Nous avons gardé les deux car pour un test rapide, on peut utiliser la première approche, et la deuxième lorsqu'on veut faire un déploiement sérieux.
 
 ### 4.4 Résultats de la phase 2
+Au sortie de cette phase nous conservons:
+- Les deux modèles présentés plus haut
+- Un jeu de données déjà près à l'emploi pour toute classification de texte dans ce contexte 
