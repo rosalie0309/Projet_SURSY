@@ -68,4 +68,17 @@ Nous avons gardé les deux car pour un test rapide, on peut utiliser la premièr
 ### 4.4 Résultats de la phase 2
 Au sortie de cette phase nous conservons:
 - Les deux modèles présentés plus haut
-- Un jeu de données déjà près à l'emploi pour toute classification de textesS dans ce contexte 
+- Un jeu de données déjà près à l'emploi pour toute classification de textesS dans ce contexte
+
+### 5. Comment se servir de ce projet? 
+### 5.1 Les librairies et les versions 
+Déjà nous avons utilisé la version 3.12.8 de python (en environnement virtuel).   Les librairies utilisées avec les versions se trouvent dans le fichier txt nommé **requirements.txt**
+
+### 5.2 L'arborescence à créer 
+Pour exploiter ce projet, l'aboresence est celle que vous aurez après avoir clonné le projet, le dossier des données que vous aurez, vous pouvez le coller dans tous les dossiers des phases du projet 
+
+### 5.3 Les données 
+Pour avoir les données de ce projet, veuillez vous rendre sur dataverse dédié dont le lien est le suivant : 
+
+### 5.4 Comment lancer les notebooks
+Les différents scripts sont dans des fichiers notebook, vous pouvez exécuter bloc par bloc en faisant CTRL + ENTREE ou alors lancer toute l'exécution encliquant sur le bouton **Run All** de VS-Code 
