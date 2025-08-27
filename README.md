@@ -59,7 +59,7 @@ Classer les articles selon leur pertinence pour la veille syndromique (*type_art
   Contrairement à la phase 1, le déséquilibre entre classes est problématique ici. En effet, la classe VS est sous-représentée dans la vie réelle. Le principal défis est donc de trouver un modèle qui arrive tout de même à gérer ce déséquilibre et voir par la suite comment améliorer la veille syndromique en SV en augmentant ces données (ce qui fait l'objet de la phase 3 du projet)
 
 ### 4.3 Approches de classification qui ont données de bonnes performances
-  Parmis les multiples approches abordées durant cette phase, nous avons retenu 2 approches bien qu'il y a un seule qui soit véritablement fiable. Nous les avons gardé pour des raisons particulières:
+  Parmis les multiples approches abordées durant cette phase, nous avons retenu 2 approches bien qu'il y a une seule qui soit véritablement fiable. Nous les avons gardé pour des raisons particulières:
   - TF-IDF + XGBOOST :  vectorisation avec tfidf et classification avec XGBOOST est une approche rapide en terme de calcul et donne d'assez bonnes performances, la seule limite réside au niveau de l'effet statique du vectorizer (très sensible aux mots synonymes de ce qu'il a dans son vocabulaire)
   - Fine-tuning de SBERT : après un temps d'entrainement assez considérable, cette approche produit un très bon rapport de classification ainsi qu'un bon score AUC-PR (qui vaut 0.99), de plus le meilleur modèle sauvegardé arrive à bien classer les phrases qui utilisent les synonymes en parlant de la veille syndromique ce qui n'était pas le cas de TF-IDF + XGBOOST
 
