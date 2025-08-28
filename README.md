@@ -72,7 +72,7 @@ Au sortie de cette phase nous conservons:
 
 ### 5. Comment se servir de ce projet? 
 ### 5.1 Les librairies et les versions 
-Déjà nous avons utilisé la version 3.12.8 de python (en environnement virtuel).   Les librairies utilisées avec les versions se trouvent dans le fichier txt nommé **requirements.txt**
+Déjà nous avons utilisé la version 3.12.8 de python (en environnement virtuel).   Les librairies utilisées dans chaque phase avec les versions se trouvent dans le fichier txt nommé **requirements.txt**. Nous avons sauvegardé les requirements de chaque phase. Il serait recommandé de créer un environnement virtuel pour chaque phase et puis installer dans chaque environnement les librairies de la phase en question en utilisant la commande `pip install -r requirements.txt`
 
 ### 5.2 L'arborescence à créer 
 Pour exploiter ce projet, l'aboresence est celle que vous aurez après avoir clonné le projet, le dossier des données que vous aurez, vous pouvez le coller dans tous les dossiers des phases du projet 
