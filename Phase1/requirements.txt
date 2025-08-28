@@ -1,5 +1,9 @@
 accelerate==1.10.1
+aiohappyeyeballs==2.6.1
+aiohttp==3.12.15
+aiosignal==1.4.0
 asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work
+attrs==25.3.0
 beautifulsoup4==4.13.5
 certifi==2025.8.3
 charset-normalizer==3.4.3
@@ -7,12 +11,16 @@ click==8.2.1
 comm @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_comm_1753453984/work
 contourpy==1.3.3
 cycler==0.12.1
+datasets==4.0.0
 debugpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_debugpy_1754523420/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1740384970518/work
+dill==0.3.8
+evaluate==0.4.5
 exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1746947292760/work
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1745502089858/work
 filelock==3.13.1
 fonttools==4.59.1
+frozenlist==1.7.0
 fsspec==2024.6.1
 gdown==5.2.0
 hf-xet==1.1.8
@@ -31,7 +39,10 @@ kiwisolver==1.4.9
 MarkupSafe==2.1.5
 matplotlib==3.10.5
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
+memory-profiler==0.61.0
 mpmath==1.3.0
+multidict==6.6.4
+multiprocess==0.70.16
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
 networkx==3.3
 nlpaug==1.1.11
@@ -56,9 +67,11 @@ pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1733
 pillow==11.0.0
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_platformdirs_1756227402/work
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1744724089886/work
+propcache==0.3.2
 psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1755851289619/work
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
 pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
+pyarrow==21.0.0
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1750615794071/work
 pyparsing==3.2.3
 PySocks==1.7.1
@@ -72,6 +85,8 @@ sacremoses==0.1.1
 safetensors==0.6.2
 scikit-learn==1.7.1
 scipy==1.16.1
+seaborn==0.13.2
+sentence-transformers==5.1.0
 sentencepiece==0.2.1
 setuptools==80.9.0
 six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work
@@ -93,4 +108,6 @@ tzdata==2025.2
 urllib3==2.5.0
 wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work
 wheel==0.45.1
+xxhash==3.5.0
+yarl==1.20.1
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1749421620841/work
