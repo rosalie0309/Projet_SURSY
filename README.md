@@ -76,6 +76,51 @@ Déjà nous avons utilisé la version 3.12.8 de python (en environnement virtuel
 
 ### 5.2 L'arborescence à créer 
 Pour exploiter ce projet, l'aboresence est celle que vous aurez après avoir clonné le projet dans votre local, le dossier des données que vous aurez (à télécharger sur le dataverse), vous pouvez le coller dans les dossiers de toutes les phases du projet 
+Voici de manière visuelle l'arboresence que vous devez avoir:
+
+```text
+Projet_SURSY/
+│
+├── Phase1/
+│   ├── data/
+│   │   ├── data_selected_by_disease_phase1_public.csv         # Données équilibrées par maladie
+│   │   ├── data_selected_with_umap&kmeans_phase1_public.csv   # Données équilibrées via clustering K-Means
+│   │   └── data_complete_public_phase1.csv                    # Données complètes collectées en phase 1
+│   │
+│   ├── classification_avec_data_umap&kmeans.ipynb             # Classification avec données issues des clusters K-Means
+│   ├── classification_avec_data_par_maladie.ipynb             # Classification avec données issues de la sélection par maladie
+│   ├── models/                                                # Sorties des entraînements (modèles sauvegardés)
+│   └── requirements.txt                                       # Librairies utilisées + versions
+│
+├── Phase2/
+│   ├── data/
+│   │   ├── data_phase2_without_data_phase1_public.csv         # Données de la phase 2 seules
+│   │   └── data_final_phase2_public.csv                       # Données de phase 2 + partie phase 1 (déséquilibre réel)
+│   │
+│   ├── classification_experimentations_1.ipynb                # Expérimentations initiales (modèles de base → avancés)
+│   ├── classification_experimentations_2.ipynb                # Nouvelles expérimentations avec modèles avancés (optimisation)
+│   ├── fine_tuning_classification_experiments.ipynb           # Fine-tuning de SBERT et RoBERTa (GPU entreprise)
+│   ├── classification_finale_phase2.ipynb                     # Approches finales sauvegardées
+│   ├── rassemblage_data.ipynb                                 # Rassemblement des données phase 2 + création versions publiques/privées
+│   │
+│   ├── splits_idx_train.npy                                   # Index train (séparation fixe)
+│   ├── splits_idx_val.npy                                     # Index validation
+│   ├── splits_idx_test.npy                                    # Index test
+│   │
+│   ├── results_SBERT/                                         # Métadonnées du fine-tuning de SBERT
+│   └── requirements.txt                                       # Librairies utilisées + versions
+│
+├── Phase3/
+│   ├── data/
+│   │   ├── data_augmented_back_translation_en_de_public.csv   # Données augmentées (pivot = allemand)
+│   │   └── data_augmented_back_translation_en_fr_public.csv   # Données augmentées (pivot = français)
+│   │
+│   ├── experimentations.ipynb                                 # Expérimentations avec augmentation (back-translation)
+│   ├── fine_tuning_experiments_augmented.ipynb                # Fine-tuning SBERT sur données augmentées
+│   └── requirements.txt                                       # Librairies utilisées + versions
+│
+└── README.md                                                  # Documentation principale du projet
+```
 
 ### 5.3 Les données 
 Pour avoir les données de ce projet, veuillez vous rendre sur dataverse dédié dont le lien est le suivant : 
