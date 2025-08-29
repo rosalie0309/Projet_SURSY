@@ -10,7 +10,7 @@ L’un des défis majeurs de la veille syndromique en santé végétale est la r
 
 Il est donc question de développer une approche robuste de classification et d’augmentation de données textuelles pour la veille syndromique en santé végétale.
 Le projet a été structuré en trois phases principales.
-Dans ce dépôt, nous détaillons principalement les phases 1 et 2.
+Dans ce dépôt, nous détaillons principalement les phases 1 et 2. Mais un avant goût de la phase 3 se trouve dans le dossier Phase3 de ce dépôt.
 
 ### 3. Phase1 : Classification par thématique 
 
@@ -75,10 +75,10 @@ Au sortie de cette phase nous conservons:
 Déjà nous avons utilisé la version 3.12.8 de python (en environnement virtuel).   Les librairies utilisées dans chaque phase avec les versions se trouvent dans le fichier txt nommé **requirements.txt**. Nous avons sauvegardé les requirements de chaque phase. Il serait recommandé de créer un environnement virtuel pour chaque phase et puis installer dans chaque environnement les librairies de la phase en question en utilisant la commande `pip install -r requirements.txt`
 
 ### 5.2 L'arborescence à créer 
-Pour exploiter ce projet, l'aboresence est celle que vous aurez après avoir clonné le projet, le dossier des données que vous aurez, vous pouvez le coller dans tous les dossiers des phases du projet 
+Pour exploiter ce projet, l'aboresence est celle que vous aurez après avoir clonné le projet dans votre local, le dossier des données que vous aurez (à télécharger sur le dataverse), vous pouvez le coller dans les dossiers de toutes les phases du projet 
 
 ### 5.3 Les données 
 Pour avoir les données de ce projet, veuillez vous rendre sur dataverse dédié dont le lien est le suivant : 
 
 ### 5.4 Comment lancer les notebooks
-Les différents scripts sont dans des fichiers notebook, vous pouvez exécuter bloc par bloc en faisant CTRL + ENTREE ou alors lancer toute l'exécution encliquant sur le bouton **Run All** de VS-Code 
+Les différents scripts sont dans des fichiers notebook, vous pouvez exécuter bloc par bloc en faisant `CTRL + ENTREE` ou alors lancer toute l'exécution encliquant sur le bouton **Run All** de VS-Code 
