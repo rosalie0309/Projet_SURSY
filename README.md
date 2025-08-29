@@ -97,7 +97,7 @@ Projet_SURSY/
 │   │   ├── data_phase2_without_data_phase1_public.csv         # Données de la phase 2 seules
 │   │   └── data_final_phase2_public.csv                       # Données de phase 2 + partie phase 1 (déséquilibre réel)
 │   │
-│   ├── classification_experimentations_1.ipynb                # Expérimentations initiales (modèles de base → avancés)
+│   ├── classification_experimentations_1.ipynb                # Expérimentations initiales (modèles de base -> avancés)
 │   ├── classification_experimentations_2.ipynb                # Nouvelles expérimentations avec modèles avancés (optimisation)
 │   ├── fine_tuning_classification_experiments.ipynb           # Fine-tuning de SBERT et RoBERTa (GPU entreprise)
 │   ├── classification_finale_phase2.ipynb                     # Approches finales sauvegardées
